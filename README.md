@@ -1,14 +1,13 @@
 # Introduction
 
-In this document, I will go over an analysis I did as part of Luke Barousse's SQL course. The project focusing on Data Analyst roles in Italy and explores 💰 top-paying jobs, 🔥 in-demand skills, and 📈 where high demand meets high salary in data analytics.
+In this document, I will go over an analysis I did as part of Luke Barousse's SQL course. The project focusing on Data Analyst roles in Italy in 2023 and explores 💰 top-paying jobs, 🔥 in-demand skills, and 📈 where high demand meets high salary in data analytics.
 
-🔍 SQL queries? Check them out here:
 
 # Background
 Driven by the goal of improving my SQL skills, I decided to follow Luke Barousse's [YouTube course](https://www.youtube.com/watch?v=7mz73uXD9DA&list=PL_CkpxkuPiT-RJ7zBfHVWwgltEWIVwrwb). This course is well structured, easy to follow and full of practical exercises.
 Special thanks to Luke and Kelly Adams for this amazing SQL course and thank you for sharing your valuable knowledge with the world.
 
-The data used for this project comes from Luke Barousse's [datanerd.tech app](https://datanerd.tech/), which helps identify key insights for data-related jobs.
+The data used for this project comes from Luke Barousse's 🛠️ [datanerd.tech app](https://datanerd.tech/), which helps identify key insights for data-related jobs.
 
 ### The questions I wanted to answer through my SQL queries were:
 1. What are the top-paying data analyst jobs in Italy?
@@ -24,6 +23,7 @@ To create this project I used the following tools:
 - **PostgreSQL:** the database management system for handling the data.
 - **Visual Studio Code:** for database management and executing SQL queries.
 - **Git & GitHub:** essential for version control and sharing my SQL scripts and analysis.
+- **Excel:** used to create tables and visualization.
 
 # The Analysis
 Each query for this project aimed at investigating specific aspects of the data analyst job market in Italy. Here’s how I approached each question:
@@ -120,7 +120,7 @@ ORDER BY
 LIMIT 5;
 ```
 Here's the breakdown of the most demanded skills for data analysts in 2023 in Italy:
-- **Excel** and **SQL** remain fundamental, emphasizing the need for strong foundational skills in data processing and spreadsheet manipulation.
+- **Excel** and **SQL** are fundamentals tools, highlighting the need for strong core skills in data processing and spreadsheet manipulation.
 - **Programming** and **Visualization Tools** like **Python**, **Power BI**, and **Tableau** are essential, pointing towards the increasing importance of technical skills in data storytelling and decision support.
 
 | Skills       | Demand Count |
@@ -197,6 +197,7 @@ Limit 10;
 
 
 ![Most optimal skills](image-4.png)
+
 *Table of the most optimal skills*
 
 ### **What I Learned**
